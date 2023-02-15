@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><b>Personal Info</b></legend>
+        Name:<input type="text"><br><br>
+        email:<input type="email"><br><br>
+        Mobile:<input type="tel"><br><br>
+        Mother name:<input type="text"><br><br>
+        Father name:<input type="text"><br><br>
+        Gender<br>
+        <label>Male<input type="radio" name="status"></label>
+        <label>Female<input type="radio" name="status"></label><br><br>
+        Blood Group:<br>
+        <input type="text" list="Bloodgroup">
+        <datalist id="Bloodgroup">
+            <option value="A+"></option>
+            <option value="B+"></option>
+            <option value="O+"></option>
+            <option value="A-"></option>
+            <option value="B-"></option>
+            <option value="O-"></option>
+            <option value="AB+"></option>
+            <option value="AB-"></option>
+        </datalist><br><br>
+        Hobby-<br>
+        1.Music<input type="checkbox" value="Music">
+        2.Drawing<input type="checkbox" value="Drawing">
+        3.Cooking<input type="checkbox" value="Cooking">
+        4.Sport<input type="checkbox" value="Sport">
+        5.Dancing<input type="checkbox" value="Dancing"><br><br>
+        Education<br>
+        <input type="text" list="Education">
+        <datalist id="Education">
+            <option value="10th">
+            <option value="12th">
+            <option value="Gradution">
+            <option value="Post-graduation">
+            <option value="Degree">
+        </datalist><br><br>
+        Project Name:<textarea></textarea></fieldset>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
